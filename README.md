@@ -15,7 +15,7 @@ The dataset is ...
 
 ### 3. Claim your skore.probabl.ai account
 
-Accept the [invitation](https://api.workshop.probabl.ai/identity/invitations/8c63c6cf-2bb1-47d9-8572-ce6d2013b98f?success_uri=https://workshop.probabl.ai/login/success) UPDATE INVITE.
+Accept the [invitation](https://api.workshop.probabl.ai/identity/invitations/bbe6f2e4-1d88-4902-82cd-c5c21deb7f06?success_uri=https://workshop.probabl.ai/login/success).
 If you already have an account, just login. If you don't, creare one. Once you clicked the invitation, you should see the **[workshop-consortgroup workspace](https://workshop.probabl.ai/workshop-consortgroup)** on your skore interface.
 
 ### 4. Launch the skore agent
