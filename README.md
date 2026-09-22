@@ -1,26 +1,22 @@
-# Wavestone Workshop
+# Consort Group Workshop
 
-Credit-card fraud detection with [skore](https://workshop.probabl.ai). 
+Churn prediction with [skore](https://workshop.probabl.ai). 
 
 ### 1. Clone the project repository
 
 ```bash
-git clone https://github.com/probabl-ai/wavestone-workshop.git
-cd wavestone-workshop
+git clone https://github.com/probabl-ai/consortgroup-workshop.git
+cd consortgroup-workshop
 ```
 
 ### 2. Data
 
-The dataset is in the repo as two zips. Join them into `data/creditcard.csv` with the python script:
-
-```bash
-python download-data
-```
+The dataset is ...
 
 ### 3. Claim your skore.probabl.ai account
 
-Accept the [invitation](https://api.workshop.probabl.ai/identity/invitations/8c63c6cf-2bb1-47d9-8572-ce6d2013b98f?success_uri=https://workshop.probabl.ai/login/success).
-If you already have an account, just login. If you don't, creare one. Once you clicked the invitation, you should see the **[workshop-wavestone workspace](https://workshop.probabl.ai/workshop-wavestone)** on your skore interface.
+Accept the [invitation](https://api.workshop.probabl.ai/identity/invitations/8c63c6cf-2bb1-47d9-8572-ce6d2013b98f?success_uri=https://workshop.probabl.ai/login/success) UPDATE INVITE.
+If you already have an account, just login. If you don't, creare one. Once you clicked the invitation, you should see the **[workshop-consortgroup workspace](https://workshop.probabl.ai/workshop-consortgroup)** on your skore interface.
 
 ### 4. Launch the skore agent
 
@@ -36,7 +32,7 @@ Then install the skore agent:
 skore agent --hub-url https://api.workshop.probabl.ai
 ```
 
-It will ask you what workspace you want to use. Select **workshop-wavestone**.
+It will ask you what workspace you want to use. Select **workshop-consortgroup**.
 Then it will ask you what code harness you want to use (copilot, claude-code, etc.). Select the one your prefer.
 
 You are now ready to create your first model!
@@ -45,7 +41,6 @@ You are now ready to create your first model!
 
 Once the setup is done, start prompting the agent. It will guide you through each step: feature engineering, model choice, cross-validation, evaluation, and each subsequent iteration.
 
-**Metric:** The ranking metric is **AUPRC** (area under the precision-recall curve). Instruct the agent to **create a custom AUPRC metric** and to use it for all evaluation and comparison. Accuracy is not a valid ranking metric here — the target class is rare (~0.173% fraud).
 
 # Example prompts
 To explore the data and run EDA:
@@ -56,12 +51,12 @@ Hello, I'd like to explore my data before running a baseline.
 To start a baseline experiment:
 ```
 Please help me setup and run a baseline experiment to predict
-fraudulent transactions that I can iterate and improve on afterwards.
+churn that I can iterate and improve on afterwards.
 ```
 
 To try TabICL on your tabular problem:
 ```
-I’d like to try TabICL on my fraud prediction dataset.
+I’d like to try TabICL on my churn prediction dataset.
 Please help me:
 - Check if my data format is compatible with TabICL.
 - Set up a minimal example that loads my data and runs TabICL for binary classification.
@@ -69,12 +64,12 @@ Please help me:
 
 # What to do when the agent is running: look at the Hub
 
-Open the [workshop-wavestone workspace](https://workshop.probabl.ai/workshop-wavestone).
+Open the [workshop-consortgroup workspace](https://workshop.probabl.ai/workshop-consortgroup).
 
 While the agent is running EDA or a first baseline, browse the **pre-pushed experiments** so you can see what a Hub report looks like:
 
-- [wavestone-cv](https://workshop.probabl.ai/workshop-wavestone) — cross-validation reports
-- [wavestone-leaderboard](https://workshop.probabl.ai/workshop-wavestone) — fitted estimators scored on the held-out test set
+- [consortgroup-cv](https://workshop.probabl.ai/workshop-consortgroup) — cross-validation reports
+- [consortgroup-leaderboard](https://workshop.probabl.ai/workshop-consortgroup) — fitted estimators scored on the held-out test set
 
 ![Skore Hub project: a table of reports you can open and compare](docs/images/hub-reports.png)
 
@@ -90,5 +85,5 @@ Read it. You can ask questions to the agent about it. Then in a new window, you 
 
 # Leaderboard
 
-You can view the leaderboard of everyone's experiments ranked by AUPRC here: [Leaderboard](https://leaderboard.probabl.ai/d/wavestone-workshop)
+You can view the leaderboard of everyone's experiments ranked by METRIC here: [Leaderboard][ADD LEADERBOARD]
 Try to reach the top of the leaderboard!
