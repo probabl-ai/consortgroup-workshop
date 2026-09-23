@@ -11,7 +11,7 @@ cd consortgroup-workshop
 
 ### 2. Data
 
-The dataset is ...
+The dataset is http://kaggle.com/datasets/jpacse/datasets-for-churn-telecom.
 
 ### 3. Claim your skore.probabl.ai account
 
