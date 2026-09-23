@@ -85,5 +85,5 @@ Read it. You can ask questions to the agent about it. Then in a new window, you 
 
 # Leaderboard
 
-You can view the leaderboard of everyone's experiments ranked by METRIC here: [Leaderboard](https://leaderboard.probabl.ai/d/consort-group-workshop)
+You can view the leaderboard of everyone's experiments ranked by ROC-AUC here: [Leaderboard](https://leaderboard.probabl.ai/d/consort-group-workshop)
 Try to reach the top of the leaderboard!
