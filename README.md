@@ -15,11 +15,11 @@ The dataset is http://kaggle.com/datasets/jpacse/datasets-for-churn-telecom.
 
 ### 3. Claim your skore.probabl.ai account
 
-Accept the [invitation](https://api.workshop.probabl.ai/identity/invitations/bbe6f2e4-1d88-4902-82cd-c5c21deb7f06?success_uri=https://workshop.probabl.ai/login/success) (you will be prompted to login or create an account). Once accepted, you should see the **[workshop-consortgroup workspace](https://workshop.probabl.ai/workshop-consortgroup)** on your skore interface.
+Accept the [invitation](https://api.workshop.probabl.ai/identity/invitations/bbe6f2e4-1d88-4902-82cd-c5c21deb7f06?success_uri=https://workshop.probabl.ai/login/success) (you will be prompted to login or create an account). Once accepted, you should see the [workshop-consortgroup workspace](https://workshop.probabl.ai/workshop-consortgroup) on your skore interface.
 
 ### 4. Launch the skore agent
 
-Install `[skore-cli](https://pypi.org/project/skore-cli/)` so the `skore` command is on your `PATH`:
+Install [skore-cli](https://pypi.org/project/skore-cli/) so the `skore` command is on your `PATH`:
 
 ```bash
 pip install skore-cli
