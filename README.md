@@ -78,7 +78,7 @@ Those two projects are the destination for your own pushes later.
 
 After the first agent turn, a `journal/` directory appears. **Open** [journal/JOURNAL.md](journal/JOURNAL.md). This is the index the agent writes as it works: decisions recording, current status, EDA, experiment history, and the backlog of next ideas.
 
-
+![Skore Hub journal](docs/images/journal_consort.png)
 
 Read it. You can ask questions to the agent about it. Then in a new window, you can make a second model iteration, either by asking to run one of the backlog ideas, or with one of your own.
 
