@@ -21,7 +21,21 @@ Accept the [invitation](https://api.workshop.probabl.ai/identity/invitations/bbe
 
 Install [skore-cli](https://pypi.org/project/skore-cli/) so the `skore` command is on your `PATH`:
 
+For Max/Linux:
 ```bash
+cd consortgroup-workshop
+python -m venv .venv
+source .venv/bin/activate  
+pip install --upgrade pip
+pip install skore-cli
+```
+
+For Windows:
+```bash
+cd consortgroup-workshop
+python -m venv .venv
+source .venv/Scripts/activate 
+pip install --upgrade pip
 pip install skore-cli
 ```
 
